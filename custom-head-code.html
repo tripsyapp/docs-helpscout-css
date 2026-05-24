@@ -1,0 +1,42 @@
+<!-- ============================================================
+     Tripsy Help — Insert <head> Code completo
+     Cole tudo isso em: Manage -> Docs -> [site] -> Custom Code -> Insert <head> Code
+     CSS lives in custom.css
+     ============================================================ -->
+
+<!-- Beacon -->
+<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});
+</script>
+<script type="text/javascript">window.Beacon('init', 'aafe791d-735a-4892-b0a6-214ef606ff01')</script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144556494-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-144556494-2');
+</script>
+
+<!-- Move article count badge para dentro do h3, exibindo só o número -->
+<script type="text/javascript">
+(function() {
+  function moveBadges() {
+    var categories = document.querySelectorAll('.category-list .category');
+    categories.forEach(function(card) {
+      var h3 = card.querySelector('h3');
+      var count = card.querySelector('.article-count');
+      if (h3 && count) {
+        count.textContent = count.textContent.replace(/\D/g, '');
+        h3.appendChild(count);
+      }
+    });
+  }
+
+  if (document.readyState === 'complete') {
+    moveBadges();
+  } else {
+    window.addEventListener('load', moveBadges, false);
+  }
+})();
+</script>
