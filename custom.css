@@ -1570,7 +1570,7 @@ body,
 }
 
 .navbar .brand {
-  background: url("logo-light.png") left center / contain no-repeat !important;
+  background: url("https://raw.githubusercontent.com/tripsyapp/docs-helpscout-css/refs/heads/main/logo-light.png") left center / contain no-repeat !important;
   display: block !important;
   height: 40px !important;
   margin-top: 25px !important;
@@ -1795,7 +1795,7 @@ a.category.category:hover {
   }
 
   .navbar .brand {
-    background-image: url("logo-dark.png") !important;
+    background-image: url("https://raw.githubusercontent.com/tripsyapp/docs-helpscout-css/refs/heads/main/logo-dark.png") !important;
   }
 
   #searchBar .search-query,
