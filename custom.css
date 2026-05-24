@@ -1569,6 +1569,14 @@ body,
   color: var(--tripsy-muted-strong) !important;
 }
 
+.navbar .brand {
+  background: url("logo-light.png") left center / contain no-repeat !important;
+  display: block !important;
+  height: 40px !important;
+  margin-top: 25px !important;
+  width: 90px !important;
+}
+
 #docsSearch {
   border-top: 0 !important;
   margin: 0 !important;
@@ -1684,6 +1692,19 @@ a.category.category:hover {
   transform: translateY(-2px) !important;
 }
 
+.category-list .category, section.category-list a.category, a.category, .category {
+  max-height: 120px !important;
+}
+
+#docsSearch {
+  height: auto;
+  padding: 16px 0 16px !important;
+}
+
+#contentArea {
+  padding: 16px 0 16px !important;
+}
+
 .category-list .category h3 {
   align-items: center !important;
   display: flex !important;
@@ -1771,6 +1792,10 @@ a.category.category:hover {
 
   .navbar .navbar-inner {
     background: #0a0a0a !important;
+  }
+
+  .navbar .brand {
+    background-image: url("logo-dark.png") !important;
   }
 
   #searchBar .search-query,
