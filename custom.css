@@ -1954,6 +1954,27 @@ a.category,
         fill: #2cc683 !important;
     }
 
+    .articleFoot p,
+    .articleFoot time {
+        color: #8f8f8f !important;
+    }
+
+    #fullArticle .callout-blue {
+        background: #152235 !important;
+        border-color: #335a86 !important;
+        color: #d7e6f7 !important;
+    }
+
+    #fullArticle .callout-blue p,
+    #fullArticle .callout-blue a,
+    #fullArticle .callout-blue strong {
+        color: #d7e6f7 !important;
+    }
+
+    #fullArticle .callout-blue a {
+        text-decoration: underline;
+    }
+
     .contentWrapper a,
     .article-content a,
     .collection-category a,
