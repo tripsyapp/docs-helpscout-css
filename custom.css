@@ -1891,6 +1891,37 @@ a.category,
         color: #cccccc !important;
     }
 
+    .articleRatings,
+    .related {
+        background: #161616 !important;
+        border: 1px solid var(--tripsy-border) !important;
+        box-shadow: none !important;
+        color: #d6d6d6 !important;
+    }
+
+    .articleRatings-question,
+    .articleRatings-failure,
+    .articleRatings-feedback-message,
+    .related h3,
+    .related ul > li a {
+        color: #d6d6d6 !important;
+    }
+
+    .articleRatings .rateAction {
+        background: #2a2a2a !important;
+        border-color: #161616 !important;
+        box-shadow: none !important;
+    }
+
+    .articleRatings .rateAction:not([disabled="disabled"]):hover,
+    .articleRatings .rateAction:not([disabled="disabled"]):focus {
+        background: #333333 !important;
+    }
+
+    .articleRatings-feedback-tick svg path {
+        fill: #2cc683 !important;
+    }
+
     .contentWrapper a,
     .article-content a,
     .collection-category a,
