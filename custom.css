@@ -1859,6 +1859,14 @@ a.category,
         background-image: url("https://raw.githubusercontent.com/tripsyapp/docs-helpscout-css/refs/heads/main/logo-dark.png") !important;
     }
 
+    #sidebar {
+        background: #131313 !important;
+        border: 1px solid var(--tripsy-border) !important;
+        border-radius: 8px !important;
+        box-shadow: none !important;
+        padding: 24px 22px !important;
+    }
+
     #searchBar .search-query,
     input.search-query {
         box-shadow: none !important;
@@ -1895,8 +1903,15 @@ a.category,
     .collection-category .container,
     .collection-category .container-fluid,
     .collection-category > div > div {
-        background: #161616 !important;
+        background: #171717 !important;
         border: 1px solid var(--tripsy-border) !important;
+        box-shadow: none !important;
+    }
+
+    #main-content .contentWrapper {
+        background: #171717 !important;
+        border: 1px solid var(--tripsy-border) !important;
+        border-radius: 8px !important;
         box-shadow: none !important;
     }
 
@@ -1911,7 +1926,7 @@ a.category,
 
     .articleRatings,
     .related {
-        background: #161616 !important;
+        background: #181818 !important;
         border: 1px solid var(--tripsy-border) !important;
         box-shadow: none !important;
         color: #d6d6d6 !important;
