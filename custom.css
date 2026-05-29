@@ -1114,6 +1114,12 @@ a:hover {
     color: #333333;
 }
 
+.articleFoot {
+    clear: both;
+    display: flow-root;
+    margin-bottom: 2.5em;
+}
+
 .articleFoot i {
     color: #c5ced6;
 }
