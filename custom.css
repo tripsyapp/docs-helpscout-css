@@ -1885,6 +1885,10 @@ a.category,
         color: #777777 !important;
     }
 
+    .contentWrapper p.descrip {
+        color: #a8a8a8 !important;
+    }
+
     #main-content,
     .contentWrapper,
     .rightCol,
