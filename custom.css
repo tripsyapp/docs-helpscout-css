@@ -1959,10 +1959,67 @@ a.category,
         color: #8f8f8f !important;
     }
 
+    #fullArticle .callout,
+    #fullArticle .callout-blue,
+    #fullArticle .callout-green,
+    #fullArticle .callout-red,
+    #fullArticle .callout-yellow,
+    #fullArticle .private-note {
+        color: #e6e6e6 !important;
+    }
+
+    #fullArticle .callout {
+        background: #1b1b1b !important;
+        border-color: #3a3a3a !important;
+    }
+
     #fullArticle .callout-blue {
         background: #152235 !important;
         border-color: #335a86 !important;
         color: #d7e6f7 !important;
+    }
+
+    #fullArticle .callout-green {
+        background: #16271d !important;
+        border-color: #3d6e4d !important;
+    }
+
+    #fullArticle .callout-red {
+        background: #2a1717 !important;
+        border-color: #7c4040 !important;
+    }
+
+    #fullArticle .callout-yellow,
+    #fullArticle .private-note {
+        background: #2b2414 !important;
+        border-color: #8b6a25 !important;
+    }
+
+    #fullArticle .private-note {
+        background-image: url("https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--lock-white.svg") !important;
+        background-repeat: no-repeat !important;
+        background-position: top 18px right 18px !important;
+    }
+
+    #fullArticle .callout p,
+    #fullArticle .callout-blue p,
+    #fullArticle .callout-green p,
+    #fullArticle .callout-red p,
+    #fullArticle .callout-yellow p,
+    #fullArticle .private-note p,
+    #fullArticle .callout a,
+    #fullArticle .callout-blue a,
+    #fullArticle .callout-green a,
+    #fullArticle .callout-red a,
+    #fullArticle .callout-yellow a,
+    #fullArticle .private-note a,
+    #fullArticle .callout strong,
+    #fullArticle .callout-blue strong,
+    #fullArticle .callout-green strong,
+    #fullArticle .callout-red strong,
+    #fullArticle .callout-yellow strong,
+    #fullArticle .private-note strong {
+        color: inherit !important;
     }
 
     #fullArticle .callout-blue p,
